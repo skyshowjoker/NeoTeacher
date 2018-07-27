@@ -135,18 +135,31 @@ CMakeFiles/NeoTeacherServer.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherServer.dir/User.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.cpp -o CMakeFiles/NeoTeacherServer.dir/User.cpp.s
 
-CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o: CMakeFiles/NeoTeacherServer.dir/flags.make
-CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o: ../UserList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/UserList.cpp
+CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o: CMakeFiles/NeoTeacherServer.dir/flags.make
+CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o: ../ClientList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.cpp
 
-CMakeFiles/NeoTeacherServer.dir/UserList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeoTeacherServer.dir/UserList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/UserList.cpp > CMakeFiles/NeoTeacherServer.dir/UserList.cpp.i
+CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.cpp > CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.i
 
-CMakeFiles/NeoTeacherServer.dir/UserList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherServer.dir/UserList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/UserList.cpp -o CMakeFiles/NeoTeacherServer.dir/UserList.cpp.s
+CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.cpp -o CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.s
+
+CMakeFiles/NeoTeacherServer.dir/Client.cpp.o: CMakeFiles/NeoTeacherServer.dir/flags.make
+CMakeFiles/NeoTeacherServer.dir/Client.cpp.o: ../Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NeoTeacherServer.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeoTeacherServer.dir/Client.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.cpp
+
+CMakeFiles/NeoTeacherServer.dir/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeoTeacherServer.dir/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.cpp > CMakeFiles/NeoTeacherServer.dir/Client.cpp.i
+
+CMakeFiles/NeoTeacherServer.dir/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherServer.dir/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.cpp -o CMakeFiles/NeoTeacherServer.dir/Client.cpp.s
 
 # Object files for target NeoTeacherServer
 NeoTeacherServer_OBJECTS = \
@@ -156,7 +169,8 @@ NeoTeacherServer_OBJECTS = \
 "CMakeFiles/NeoTeacherServer.dir/Request.cpp.o" \
 "CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o" \
 "CMakeFiles/NeoTeacherServer.dir/User.cpp.o" \
-"CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o"
+"CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o" \
+"CMakeFiles/NeoTeacherServer.dir/Client.cpp.o"
 
 # External object files for target NeoTeacherServer
 NeoTeacherServer_EXTERNAL_OBJECTS =
@@ -167,10 +181,11 @@ NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/Setting.cpp.o
 NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/Request.cpp.o
 NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o
 NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/User.cpp.o
-NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o
+NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o
+NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/Client.cpp.o
 NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/build.make
 NeoTeacherServer: CMakeFiles/NeoTeacherServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable NeoTeacherServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable NeoTeacherServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeoTeacherServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

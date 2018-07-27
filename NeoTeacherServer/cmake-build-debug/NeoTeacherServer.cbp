@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.cpp">
+			<Option target="NeoTeacherServer"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h">
+			<Option target="NeoTeacherServer"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.cpp">
+			<Option target="NeoTeacherServer"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h">
+			<Option target="NeoTeacherServer"/>
+		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.cpp">
 			<Option target="NeoTeacherServer"/>
 		</Unit>
@@ -112,12 +124,6 @@
 			<Option target="NeoTeacherServer"/>
 		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h">
-			<Option target="NeoTeacherServer"/>
-		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/UserList.cpp">
-			<Option target="NeoTeacherServer"/>
-		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/UserList.h">
 			<Option target="NeoTeacherServer"/>
 		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/main.cpp">

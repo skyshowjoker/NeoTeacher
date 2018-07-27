@@ -123,6 +123,60 @@ NeoTeacherServer/fast:
 	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/build
 .PHONY : NeoTeacherServer/fast
 
+Client.o: Client.cpp.o
+
+.PHONY : Client.o
+
+# target to build an object file
+Client.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/Client.cpp.o
+.PHONY : Client.cpp.o
+
+Client.i: Client.cpp.i
+
+.PHONY : Client.i
+
+# target to preprocess a source file
+Client.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/Client.cpp.i
+.PHONY : Client.cpp.i
+
+Client.s: Client.cpp.s
+
+.PHONY : Client.s
+
+# target to generate assembly for a file
+Client.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/Client.cpp.s
+.PHONY : Client.cpp.s
+
+ClientList.o: ClientList.cpp.o
+
+.PHONY : ClientList.o
+
+# target to build an object file
+ClientList.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o
+.PHONY : ClientList.cpp.o
+
+ClientList.i: ClientList.cpp.i
+
+.PHONY : ClientList.i
+
+# target to preprocess a source file
+ClientList.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.i
+.PHONY : ClientList.cpp.i
+
+ClientList.s: ClientList.cpp.s
+
+.PHONY : ClientList.s
+
+# target to generate assembly for a file
+ClientList.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.s
+.PHONY : ClientList.cpp.s
+
 MainScheduler.o: MainScheduler.cpp.o
 
 .PHONY : MainScheduler.o
@@ -258,33 +312,6 @@ User.cpp.s:
 	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/User.cpp.s
 .PHONY : User.cpp.s
 
-UserList.o: UserList.cpp.o
-
-.PHONY : UserList.o
-
-# target to build an object file
-UserList.cpp.o:
-	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o
-.PHONY : UserList.cpp.o
-
-UserList.i: UserList.cpp.i
-
-.PHONY : UserList.i
-
-# target to preprocess a source file
-UserList.cpp.i:
-	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/UserList.cpp.i
-.PHONY : UserList.cpp.i
-
-UserList.s: UserList.cpp.s
-
-.PHONY : UserList.s
-
-# target to generate assembly for a file
-UserList.cpp.s:
-	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/UserList.cpp.s
-.PHONY : UserList.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -321,6 +348,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... NeoTeacherServer"
+	@echo "... Client.o"
+	@echo "... Client.i"
+	@echo "... Client.s"
+	@echo "... ClientList.o"
+	@echo "... ClientList.i"
+	@echo "... ClientList.s"
 	@echo "... MainScheduler.o"
 	@echo "... MainScheduler.i"
 	@echo "... MainScheduler.s"
@@ -336,9 +369,6 @@ help:
 	@echo "... User.o"
 	@echo "... User.i"
 	@echo "... User.s"
-	@echo "... UserList.o"
-	@echo "... UserList.i"
-	@echo "... UserList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

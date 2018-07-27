@@ -6,6 +6,34 @@
 
 #IncludeRegexTransform: 
 
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
+netinet/in.h
+-
+
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h
+User.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h
+vector
+-
+
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.cpp
+stdexcept
+-
+strings.h
+-
+MainScheduler.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.h
+
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.h
+string
+-
+Setting.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
+TransmissionControlProtocolSerial.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
+ClientList.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h
+
 /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
 cstdint
 -
@@ -16,23 +44,17 @@ string
 string
 -
 
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.cpp
-sys/socket.h
--
-stdexcept
--
-netinet/in.h
--
-strings.h
--
-arpa/inet.h
--
-TransmissionControlProtocolSerial.h
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
-
 /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
 Setting.h
 /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
 Request.h
 /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
+
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h
+cstdint
+-
+netinet/in.h
+-
+Client.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
 

@@ -11,12 +11,15 @@
 
 class TransmissionControlProtocolSerial {
 private:
+    int listenFileDescriptor;
     int socketFileDescriptor;
     int remoteFileDescriptor;
 public:
     explicit TransmissionControlProtocolSerial(Setting* setting);
     void sendRequest(Request* request);
     void recieveRequest(Request* buffer);
+
+    int getListenFileDescriptor();
 };
 
 

@@ -15,7 +15,7 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
     auto port = setting->getPort();
     auto maxUser = setting->getMaxUser();
 
-    int listenFileDescriptor = socket(AF_INET, SOCK_STREAM, 0);
+    listenFileDescriptor = socket(AF_INET, SOCK_STREAM, 0);
     if (listenFileDescriptor < 0) {
         throw runtime_error(string("failed creating listening socket"));
     }
@@ -26,7 +26,7 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_port = htons(port);
 
-    if (bind(listenFileDescriptor, (sockaddr*) &serverAddress, sizeof(serverAddress)) < 0) {
+    if (bind(listenFileDescriptor, (sockaddr *) &serverAddress, sizeof(serverAddress)) < 0) {
         throw runtime_error(string("failed binding with socket"));
     }
 
@@ -34,7 +34,7 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
         throw runtime_error(string("failed starting listening"));
     }
 
-    fprintf (stderr, "[STAT] TCP SERIAL SUCCESSFULLY INITIALIZED..\n");
+    fprintf(stderr, "[STAT] TCP SERIAL SUCCESSFULLY INITIALIZED..\n");
 }
 
 void TransmissionControlProtocolSerial::recieveRequest(Request *buffer) {
@@ -63,3 +63,5 @@ void TransmissionControlProtocolSerial::sendRequest(Request *request) {
     request->serialize(serializedRequest);
     send(socketFileDescriptor, serializedRequest, (size_t) request->getRequestSize() + 7, 0);
 }
+
+int TransmissionControlProtocolSerial::getListenFileDescriptor() { return listenFileDescriptor; }

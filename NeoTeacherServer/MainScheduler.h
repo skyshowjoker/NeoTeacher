@@ -9,15 +9,15 @@
 #include <string>
 #include "Setting.h"
 #include "TransmissionControlProtocolSerial.h"
-#include "UserList.h"
+#include "ClientList.h"
 
 class MainScheduler {
 private:
-    Setting* setting;
-    TransmissionControlProtocolSerial* TCPSerial;
-    UserList* userList;
+    Setting *setting;
+    TransmissionControlProtocolSerial *TCPSerial;
+    ClientList *clientList;
 
-//    void handleNewConnection(void* args);
+//    void *handleNewConnection(void *args);
 
 public:
     explicit MainScheduler(std::string filePath);

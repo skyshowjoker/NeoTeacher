@@ -1,6 +1,7 @@
 #include <iostream>
+#include "MainScheduler.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    MainScheduler mainScheduler(std::string("/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/debug.config.json"));
     return 0;
 }

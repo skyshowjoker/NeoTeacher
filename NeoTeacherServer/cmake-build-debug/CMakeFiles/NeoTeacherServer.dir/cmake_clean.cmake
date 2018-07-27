@@ -5,7 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeoTeacherServer.dir/Request.cpp.o"
   "CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o"
   "CMakeFiles/NeoTeacherServer.dir/User.cpp.o"
-  "CMakeFiles/NeoTeacherServer.dir/UserList.cpp.o"
+  "CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o"
+  "CMakeFiles/NeoTeacherServer.dir/Client.cpp.o"
   "NeoTeacherServer.pdb"
   "NeoTeacherServer"
 )
