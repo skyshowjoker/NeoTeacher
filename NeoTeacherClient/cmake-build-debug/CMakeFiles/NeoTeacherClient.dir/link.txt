@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/NeoTeacherClient.dir/main.cpp.o CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o CMakeFiles/NeoTeacherClient.dir/Request.cpp.o  -o NeoTeacherClient 
