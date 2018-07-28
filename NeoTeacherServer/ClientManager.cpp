@@ -27,6 +27,7 @@ void * connectionListenLoop(void * args) {
         fprintf (stderr, "DEBUG>>%s", buff);
         bzero(buff, 1024);
     }
+    fprintf (stderr, "\n[STAT] connect exited..\n");
     return nullptr;
 }
 
@@ -46,6 +47,7 @@ void *handleNewConnectionLoop(void *args) {
             throw std::runtime_error(std::string("failed accepting connection"));
         }
         fprintf (stderr, "[STAT] connected with client '%d'..\n", clientAddr.sin_addr.s_addr);
+        send(connfd, "Welcome and fuck you.\r\n", 24, 0);
         pthread_t newClientListenLoopPid;
         connectionListenLoopArg arg;
         arg.connfd = connfd;
