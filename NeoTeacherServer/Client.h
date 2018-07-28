@@ -12,9 +12,10 @@ class Client {
 private:
     int connectSocketFileDescriptor;
     sockaddr_in clientAddress;
+    pthread_t pid;
 
 public:
-    Client(int connfd, sockaddr_in clientAddress);
+    Client(int connfd, sockaddr_in clientAddress, pthread_t pid);
 
     int getConnectSocketFileDescriptor();
 

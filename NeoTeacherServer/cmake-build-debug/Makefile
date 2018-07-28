@@ -150,32 +150,32 @@ Client.cpp.s:
 	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/Client.cpp.s
 .PHONY : Client.cpp.s
 
-ClientList.o: ClientList.cpp.o
+ClientManager.o: ClientManager.cpp.o
 
-.PHONY : ClientList.o
+.PHONY : ClientManager.o
 
 # target to build an object file
-ClientList.cpp.o:
-	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o
-.PHONY : ClientList.cpp.o
+ClientManager.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.o
+.PHONY : ClientManager.cpp.o
 
-ClientList.i: ClientList.cpp.i
+ClientManager.i: ClientManager.cpp.i
 
-.PHONY : ClientList.i
+.PHONY : ClientManager.i
 
 # target to preprocess a source file
-ClientList.cpp.i:
-	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.i
-.PHONY : ClientList.cpp.i
+ClientManager.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.i
+.PHONY : ClientManager.cpp.i
 
-ClientList.s: ClientList.cpp.s
+ClientManager.s: ClientManager.cpp.s
 
-.PHONY : ClientList.s
+.PHONY : ClientManager.s
 
 # target to generate assembly for a file
-ClientList.cpp.s:
-	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.s
-.PHONY : ClientList.cpp.s
+ClientManager.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.s
+.PHONY : ClientManager.cpp.s
 
 MainScheduler.o: MainScheduler.cpp.o
 
@@ -351,9 +351,9 @@ help:
 	@echo "... Client.o"
 	@echo "... Client.i"
 	@echo "... Client.s"
-	@echo "... ClientList.o"
-	@echo "... ClientList.i"
-	@echo "... ClientList.s"
+	@echo "... ClientManager.o"
+	@echo "... ClientManager.i"
+	@echo "... ClientManager.s"
 	@echo "... MainScheduler.o"
 	@echo "... MainScheduler.i"
 	@echo "... MainScheduler.s"

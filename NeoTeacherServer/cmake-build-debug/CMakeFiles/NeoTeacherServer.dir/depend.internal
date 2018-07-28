@@ -4,20 +4,21 @@
 CMakeFiles/NeoTeacherServer.dir/Client.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
-CMakeFiles/NeoTeacherServer.dir/ClientList.cpp.o
+CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.cpp
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.cpp
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
 CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h
 CMakeFiles/NeoTeacherServer.dir/Request.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
@@ -35,10 +36,9 @@ CMakeFiles/NeoTeacherServer.dir/User.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h
 CMakeFiles/NeoTeacherServer.dir/main.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
- /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/User.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/main.cpp

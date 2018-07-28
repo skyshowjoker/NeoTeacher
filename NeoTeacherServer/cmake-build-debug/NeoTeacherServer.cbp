@@ -90,10 +90,10 @@
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h">
 			<Option target="NeoTeacherServer"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.cpp">
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.cpp">
 			<Option target="NeoTeacherServer"/>
 		</Unit>
-		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientList.h">
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.h">
 			<Option target="NeoTeacherServer"/>
 		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.cpp">
