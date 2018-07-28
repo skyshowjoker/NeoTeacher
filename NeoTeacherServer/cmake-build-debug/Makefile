@@ -177,6 +177,33 @@ ClientManager.cpp.s:
 	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.s
 .PHONY : ClientManager.cpp.s
 
+DataBaseSerial.o: DataBaseSerial.cpp.o
+
+.PHONY : DataBaseSerial.o
+
+# target to build an object file
+DataBaseSerial.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/DataBaseSerial.cpp.o
+.PHONY : DataBaseSerial.cpp.o
+
+DataBaseSerial.i: DataBaseSerial.cpp.i
+
+.PHONY : DataBaseSerial.i
+
+# target to preprocess a source file
+DataBaseSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/DataBaseSerial.cpp.i
+.PHONY : DataBaseSerial.cpp.i
+
+DataBaseSerial.s: DataBaseSerial.cpp.s
+
+.PHONY : DataBaseSerial.s
+
+# target to generate assembly for a file
+DataBaseSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/DataBaseSerial.cpp.s
+.PHONY : DataBaseSerial.cpp.s
+
 MainScheduler.o: MainScheduler.cpp.o
 
 .PHONY : MainScheduler.o
@@ -354,6 +381,9 @@ help:
 	@echo "... ClientManager.o"
 	@echo "... ClientManager.i"
 	@echo "... ClientManager.s"
+	@echo "... DataBaseSerial.o"
+	@echo "... DataBaseSerial.i"
+	@echo "... DataBaseSerial.s"
 	@echo "... MainScheduler.o"
 	@echo "... MainScheduler.i"
 	@echo "... MainScheduler.s"

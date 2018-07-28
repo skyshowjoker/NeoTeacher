@@ -6,28 +6,29 @@
 #include <strings.h>
 #include "ClientManager.h"
 
+void requestHandler(Request * request);
+
 void ClientManager::newClient(int connectFileDescriptor, sockaddr_in clientAddr, pthread_t pid) {
     clientList.push_back(new Client(connectFileDescriptor, clientAddr, pid));
 }
 
 typedef struct {
+    TransmissionControlProtocolSerial * TCPSerial;
     int connfd;
-
     // DEBUG
     pthread_t pid;
 } connectionListenLoopArg;
 
-void * connectionListenLoop(void * args) {
-    auto connfd = ((connectionListenLoopArg*)args)->connfd;
-    auto pid = ((connectionListenLoopArg*)args)->pid;
-    fprintf (stderr, "[STAT] start listening msg in thread [%d]..\n", pid);
-    // debug
-    char buff[1024] = {0};
-    while (recv(connfd, buff, 1024, 0) != -1) {
-        fprintf (stderr, "DEBUG>>%s", buff);
-        bzero(buff, 1024);
+void *connectionListenLoop(void *args) {
+    auto connfd = ((connectionListenLoopArg *) args)->connfd;
+    auto TCPSerial = ((connectionListenLoopArg *) args)->TCPSerial;
+    auto pid = ((connectionListenLoopArg *) args)->pid;
+    fprintf(stderr, "[STAT] start listening msg in thread [%u]..\n", pid);
+    while(true) {
+        auto request = new Request();
+        TCPSerial->recieveRequest(request);
+        requestHandler(request);
     }
-    fprintf (stderr, "\n[STAT] connect exited..\n");
     return nullptr;
 }
 
@@ -46,13 +47,12 @@ void *handleNewConnectionLoop(void *args) {
         if (connfd < 0) {
             throw std::runtime_error(std::string("failed accepting connection"));
         }
-        fprintf (stderr, "[STAT] connected with client '%d'..\n", clientAddr.sin_addr.s_addr);
+        fprintf(stderr, "[STAT] connected with client '%d'..\n", clientAddr.sin_addr.s_addr);
         send(connfd, "Welcome and fuck you.\r\n", 24, 0);
-        pthread_t newClientListenLoopPid;
         connectionListenLoopArg arg;
         arg.connfd = connfd;
-        pthread_create(&newClientListenLoopPid, nullptr, &connectionListenLoop, &arg);
-        manager->newClient(connfd, clientAddr, newClientListenLoopPid);
+        pthread_create(&arg.pid, nullptr, &connectionListenLoop, &arg);
+        manager->newClient(connfd, clientAddr, arg.pid);
     }
 }
 
@@ -63,4 +63,13 @@ void ClientManager::handleNewConnection(TransmissionControlProtocolSerial *TCPSe
     arg.TCPSerial = TCPSerail;
     pthread_create(&newConnectionHandlerPid, nullptr, &handleNewConnectionLoop, &arg);
     pthread_join(newConnectionHandlerPid, nullptr);
+}
+
+void requestHandler(Request * request) {
+    switch (request->getRequestType()) {
+        case 1:
+
+        default:
+            throw std::runtime_error(std::string("invalid request type"));
+    }
 }

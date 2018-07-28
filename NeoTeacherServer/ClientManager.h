@@ -13,16 +13,18 @@
 
 class ClientManager {
 private:
-    std::vector<Client*> clientList;
+    std::vector<Client *> clientList;
     pthread_t newConnectionHandlerPid;
+
 
 public:
     ClientManager() = default;
+
     void newClient(int connectFileDescriptor, sockaddr_in clientAddr, pthread_t pid);
 
-    Client* findClientByConnFD(int connectFileDescriptor);
+    Client *findClientByConnFD(int connectFileDescriptor);
 
-    void handleNewConnection(TransmissionControlProtocolSerial* TCPSerial);
+    void handleNewConnection(TransmissionControlProtocolSerial *TCPSerial);
 };
 
 

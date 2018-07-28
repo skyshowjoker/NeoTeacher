@@ -34,9 +34,11 @@ public:
 
     void setRequestBody(std::string& body);
 
-    int getRequestSize() {
-        return requestSize;
-    }
+    uint8_t getRequestType();
+
+    uint32_t getRequestSize();
+
+    std::string getRequestBody();
 
     bool check(uint16_t anotherCheckSum);
 

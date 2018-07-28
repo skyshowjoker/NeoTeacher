@@ -19,12 +19,12 @@ bool Request::check(uint16_t anotherCheckSum) {
 
 void Request::serialize(char *serializedRequest) {
     serializedRequest = new char[requestSize
-                          + 3 /* request size */
-                          + 1 /* request type */
-                          + 2 /* checksum */];
+                                 + 3 /* request size */
+                                 + 1 /* request type */
+                                 + 2 /* checksum */];
 
     // serialize request size
-    for (int i = 0; i < 4; i ++) {
+    for (int i = 0; i < 4; i++) {
         serializedRequest[i] = toChar((uint8_t) ((requestSize << (8 * i)) >> 24));
     }
 
@@ -32,12 +32,12 @@ void Request::serialize(char *serializedRequest) {
     serializedRequest[4] = toChar(requestType);
 
     // serialize request checksum
-    for (int i = 0; i < 2; i ++) {
+    for (int i = 0; i < 2; i++) {
         serializedRequest[5 + i] = toChar((uint8_t) ((checkSum << (8 * i)) >> 8));
     }
 
     // serialize request body
-    for (unsigned long i = 0; i < requestSize; i ++) {
+    for (unsigned long i = 0; i < requestSize; i++) {
         serializedRequest[7 + i] = requestBody.at(i);
     }
 }
@@ -46,7 +46,7 @@ void Request::disserialize(char *serializedRequest) {
 
     // load size
     requestSize = 0;
-    for (int i = 0; i < 4; i ++) {
+    for (int i = 0; i < 4; i++) {
         requestSize <<= 8;
         requestSize += serializedRequest[i];
     }
@@ -62,7 +62,7 @@ void Request::disserialize(char *serializedRequest) {
     checkSum += toUnsignedChar(serializedRequest[6]);
     auto otherCheckSum = checkSum;
     calculateCheckSum();
-    if (! check(otherCheckSum)) {
+    if (!check(otherCheckSum)) {
         throw std::runtime_error(std::string("failed check"));
     }
 }
@@ -87,10 +87,22 @@ void Request::calculateSize() {
     requestSize = (uint32_t) requestBody.size();
 }
 
-void Request::setRequestBody(std::string& body) {
+void Request::setRequestBody(std::string &body) {
     requestBody = body;
 }
 
 void Request::setRequestType(uint8_t type) {
     requestType = type;
+}
+
+uint32_t Request::getRequestSize() {
+    return requestSize;
+}
+
+uint8_t Request::getRequestType() {
+    return requestType;
+}
+
+std::string Request::getRequestBody() {
+    return requestBody;
 }
