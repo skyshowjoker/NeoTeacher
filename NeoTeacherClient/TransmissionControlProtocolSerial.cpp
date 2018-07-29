@@ -11,13 +11,14 @@
 
 using namespace std;
 
-char toChar(uint8_t u) {
-    return (char) ((short) u - 128);
-}
+//char toChar(uint8_t u) {
+//    return (char) ((short) u - 128);
+//}
 
 TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *setting) {
     auto address = setting->getAddress();
     auto port = setting->getPort();
+    fprintf (stderr, "[STAT] CONNECTING TO %s:%u..\n", address.c_str(), port);
 
     socketFileDescriptor = socket(AF_INET, SOCK_STREAM, 0);
     if (socketFileDescriptor <= 0) {
@@ -26,23 +27,25 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
 
     sockaddr_in remoteAddress;
     bzero(&remoteAddress, sizeof(remoteAddress));
-    remoteAddress.sin_port = port;
+    remoteAddress.sin_port = htons(port);
     remoteAddress.sin_family = AF_INET;
-
     auto err = inet_pton(AF_INET, address.c_str(), &remoteAddress.sin_addr);
     if (err < 0) {
         throw runtime_error(string("failed converting p to n"));
     }
 
-    err = connect(socketFileDescriptor, (sockaddr *) &remoteAddress, sizeof(socketFileDescriptor));
+    err = connect(socketFileDescriptor, (sockaddr *) &remoteAddress, sizeof(remoteAddress));
     if (err < 0) {
-        throw runtime_error(string("failed connect to server"));
+        if (errno == 111) {
+            fprintf(stderr, "server '%s' refuse to connect at port %u\n", address.c_str(), port);
+        }
+        throw runtime_error(string("failed connect to server, and the errno: ") + to_string(errno));
     }
 
     fprintf(stderr, "[STAT] CONNECTED TO '%s'..\n", address.c_str());
 }
 
-void TransmissionControlProtocolSerial::recieveRequest(Request *buffer) {
+void TransmissionControlProtocolSerial::recieveRequest(Request **buffer) {
     char sizeBuffer[4];
     recv(socketFileDescriptor, sizeBuffer, 4, MSG_WAITALL);
     unsigned int size = 0;
@@ -55,9 +58,9 @@ void TransmissionControlProtocolSerial::recieveRequest(Request *buffer) {
         serializedRequest[i] = sizeBuffer[i];
     }
     recv(socketFileDescriptor, serializedRequest + 4, size + 3, MSG_WAITALL);
-    buffer = new Request();
+    *buffer = new Request();
     try {
-        buffer->disserialize(serializedRequest);
+        (*buffer)->disserialize(serializedRequest);
     } catch (runtime_error &error) {
         throw error;
     }
@@ -65,6 +68,6 @@ void TransmissionControlProtocolSerial::recieveRequest(Request *buffer) {
 
 void TransmissionControlProtocolSerial::sendRequest(Request *request) {
     char *serializedRequest = nullptr;
-    request->serialize(serializedRequest);
+    request->serialize(&serializedRequest);
     send(socketFileDescriptor, serializedRequest, (size_t) request->getRequestSize() + 7, 0);
 }

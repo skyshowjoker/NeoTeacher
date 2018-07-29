@@ -211,11 +211,17 @@ NeoTeacherClient_BINARY_DIR:STATIC=/home/karl/Documents/NeuTeacher/NeoTeacher/Ne
 //Value Computed by CMake
 NeoTeacherClient_SOURCE_DIR:STATIC=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//Path to a library.
+pkgcfg_lib_JSON_jsoncpp:FILEPATH=/usr/local/lib/x86_64-linux-gnu/libjsoncpp.so
 
 
 ########################
@@ -367,8 +373,49 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
+JSON_CFLAGS:INTERNAL=-I/usr/local/include
+JSON_CFLAGS_I:INTERNAL=
+JSON_CFLAGS_OTHER:INTERNAL=
+JSON_FOUND:INTERNAL=1
+JSON_INCLUDEDIR:INTERNAL=/usr/local/include
+JSON_INCLUDE_DIRS:INTERNAL=/usr/local/include
+JSON_LDFLAGS:INTERNAL=-L/usr/local/lib/x86_64-linux-gnu;-ljsoncpp
+JSON_LDFLAGS_OTHER:INTERNAL=
+JSON_LIBDIR:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+JSON_LIBRARIES:INTERNAL=jsoncpp
+JSON_LIBRARY_DIRS:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+JSON_LIBS:INTERNAL=
+JSON_LIBS_L:INTERNAL=
+JSON_LIBS_OTHER:INTERNAL=
+JSON_LIBS_PATHS:INTERNAL=
+JSON_PREFIX:INTERNAL=/usr/local
+JSON_STATIC_CFLAGS:INTERNAL=-I/usr/local/include
+JSON_STATIC_CFLAGS_I:INTERNAL=
+JSON_STATIC_CFLAGS_OTHER:INTERNAL=
+JSON_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/include
+JSON_STATIC_LDFLAGS:INTERNAL=-L/usr/local/lib/x86_64-linux-gnu;-ljsoncpp
+JSON_STATIC_LDFLAGS_OTHER:INTERNAL=
+JSON_STATIC_LIBDIR:INTERNAL=
+JSON_STATIC_LIBRARIES:INTERNAL=jsoncpp
+JSON_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/lib/x86_64-linux-gnu
+JSON_STATIC_LIBS:INTERNAL=
+JSON_STATIC_LIBS_L:INTERNAL=
+JSON_STATIC_LIBS_OTHER:INTERNAL=
+JSON_STATIC_LIBS_PATHS:INTERNAL=
+JSON_VERSION:INTERNAL=1.8.4
+JSON_jsoncpp_INCLUDEDIR:INTERNAL=
+JSON_jsoncpp_LIBDIR:INTERNAL=
+JSON_jsoncpp_PREFIX:INTERNAL=
+JSON_jsoncpp_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_getconf
 ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+__pkg_config_arguments_JSON:INTERNAL=REQUIRED;jsoncpp
+__pkg_config_checked_JSON:INTERNAL=1
+prefix_result:INTERNAL=/usr/local/lib/x86_64-linux-gnu
 

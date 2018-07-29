@@ -12,7 +12,6 @@ void Setting::readFromFile(std::string path) {
     Json::Reader reader;
     Json::Value root;
     reader.parse(ifs, root);
-
     setMaxUser(root.get("max_user", 1024).asUInt());
     setPort((uint16_t) root.get("server_port", 8080).asUInt());
     setDataBasePath(root.get("database_path", "./").asString());

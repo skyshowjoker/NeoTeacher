@@ -5,40 +5,34 @@
 #include <stdexcept>
 #include "Request.h"
 
-char toChar(uint8_t u) {
-    return (char) ((short) u - 128);
-}
 
-uint8_t toUnsignedChar(char c) {
-    return (uint8_t) c + (uint8_t) 128;
-}
 
 bool Request::check(uint16_t anotherCheckSum) {
     return (checkSum == anotherCheckSum);
 }
 
-void Request::serialize(char *serializedRequest) {
-    serializedRequest = new char[requestSize
-                                 + 3 /* request size */
-                                 + 1 /* request type */
-                                 + 2 /* checksum */];
+void Request::serialize(char **serializedRequest) {
+    *serializedRequest = new char[requestSize
+                                  + 3 /* request size */
+                                  + 1 /* request type */
+                                  + 2 /* checksum */];
 
     // serialize request size
-    for (int i = 0; i < 4; i++) {
-        serializedRequest[i] = toChar((uint8_t) ((requestSize << (8 * i)) >> 24));
+    for (int i = 0; i < 4; i ++) {
+        (*serializedRequest)[i] = toChar((uint8_t) ((requestSize << (8 * i)) >> 24));
     }
 
     // serialize request type;
-    serializedRequest[4] = toChar(requestType);
+    serializedRequest[0][4] = toChar(requestType);
 
     // serialize request checksum
-    for (int i = 0; i < 2; i++) {
-        serializedRequest[5 + i] = toChar((uint8_t) ((checkSum << (8 * i)) >> 8));
+    for (int i = 0; i < 2; i ++) {
+        serializedRequest[0][5 + i] = toChar((uint8_t) ((checkSum << (8 * i)) >> 8));
     }
 
     // serialize request body
-    for (unsigned long i = 0; i < requestSize; i++) {
-        serializedRequest[7 + i] = requestBody.at(i);
+    for (unsigned long i = 0; i < requestSize; i ++) {
+        serializedRequest[0][7 + i] = requestBody.at(i);
     }
 }
 
@@ -48,7 +42,7 @@ void Request::disserialize(char *serializedRequest) {
     requestSize = 0;
     for (int i = 0; i < 4; i++) {
         requestSize <<= 8;
-        requestSize += serializedRequest[i];
+        requestSize += toUnsignedChar(serializedRequest[i]);
     }
 
     // load type

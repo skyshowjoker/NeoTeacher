@@ -14,9 +14,11 @@ private:
     int socketFileDescriptor;
     int remoteFileDescriptor;
 public:
-    explicit TransmissionControlProtocolSerial(Setting* setting);
-    void sendRequest(Request* request);
-    void recieveRequest(Request* buffer);
+    explicit TransmissionControlProtocolSerial(Setting *setting);
+
+    void sendRequest(Request *request);
+
+    void recieveRequest(Request **buffer);
 };
 
 

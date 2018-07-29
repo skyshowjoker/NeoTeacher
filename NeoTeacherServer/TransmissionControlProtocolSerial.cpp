@@ -37,31 +37,31 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
     fprintf(stderr, "[STAT] TCP SERIAL SUCCESSFULLY INITIALIZED..\n");
 }
 
-void TransmissionControlProtocolSerial::recieveRequest(Request *buffer) {
+void TransmissionControlProtocolSerial::receiveRequest(int remoteFileDescriptor, Request **buffer) {
     char sizeBuffer[4];
-    recv(socketFileDescriptor, sizeBuffer, 4, MSG_WAITALL);
+    recv(remoteFileDescriptor, sizeBuffer, 4, 0);
     unsigned int size = 0;
     for (int i = 0; i < 4; i++) {
         size <<= 8;
-        size += sizeBuffer[i];
+        size += toUnsignedChar(sizeBuffer[i]);
     }
-    char serializedRequest[size + 7];
+    auto serializedRequest = (char *) malloc(size + 7);
     for (int i = 0; i < 4; i++) {
         serializedRequest[i] = sizeBuffer[i];
     }
-    recv(socketFileDescriptor, serializedRequest + 4, size + 3, MSG_WAITALL);
-    buffer = new Request();
+    recv(remoteFileDescriptor, serializedRequest + 4, size + 3, 0);
+    *buffer = new Request();
     try {
-        buffer->disserialize(serializedRequest);
+        (*buffer)->disserialize(serializedRequest);
     } catch (runtime_error &error) {
         throw error;
     }
 }
 
-void TransmissionControlProtocolSerial::sendRequest(Request *request) {
+void TransmissionControlProtocolSerial::sendRequest(int remoteFileDescriptor, Request *request) {
     char *serializedRequest = nullptr;
-    request->serialize(serializedRequest);
-    send(socketFileDescriptor, serializedRequest, (size_t) request->getRequestSize() + 7, 0);
+    request->serialize(&serializedRequest);
+    send(remoteFileDescriptor, serializedRequest, (size_t) request->getRequestSize() + 7, 0);
 }
 
 int TransmissionControlProtocolSerial::getListenFileDescriptor() { return listenFileDescriptor; }

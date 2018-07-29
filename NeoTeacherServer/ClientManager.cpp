@@ -26,7 +26,7 @@ void *connectionListenLoop(void *args) {
     fprintf(stderr, "[STAT] start listening msg in thread [%u]..\n", pid);
     while(true) {
         auto request = new Request();
-        TCPSerial->recieveRequest(request);
+        TCPSerial->receiveRequest(connfd, &request);
         requestHandler(request);
     }
     return nullptr;
@@ -65,10 +65,14 @@ void ClientManager::handleNewConnection(TransmissionControlProtocolSerial *TCPSe
     pthread_join(newConnectionHandlerPid, nullptr);
 }
 
-void requestHandler(Request * request) {
+extern void requestHandler(Request * request) {
     switch (request->getRequestType()) {
         case 1:
-
+        case Request::RTYPE_OK:
+            char * serialized;
+            request->serialize(&serialized);
+            printf ("%s\n", serialized);
+            break;
         default:
             throw std::runtime_error(std::string("invalid request type"));
     }

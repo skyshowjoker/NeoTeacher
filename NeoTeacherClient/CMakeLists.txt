@@ -3,4 +3,20 @@ project(NeoTeacherClient)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(NeoTeacherClient main.cpp TransmissionControlProtocolSerial.cpp TransmissionControlProtocolSerial.h Setting.cpp Setting.h Request.cpp Request.h)
+FIND_PACKAGE(PkgConfig REQUIRED)
+PKG_CHECK_MODULES(JSON REQUIRED jsoncpp)
+
+MESSAGE(STATUS "${JSON_VERSION}")
+MESSAGE(STATUS "${JSON_INCLUDE_DIRS}")
+MESSAGE(STATUS "${JSON_LIBRARY_DIRS}")
+MESSAGE(STATUS "${JSON_CFLAGS_OTHERS}")
+MESSAGE(STATUS "${JSON_LIBRARIES}")
+
+INCLUDE_DIRECTORIES(${JSON_INCLUDE_DIRS})
+LINK_DIRECTORIES(${JSON_LIBRARY_DIRS})
+
+ADD_DEFINITIONS(${JSON_CFLAGS_OTHER})
+
+add_executable(${PROJECT_NAME} main.cpp TransmissionControlProtocolSerial.cpp TransmissionControlProtocolSerial.h Setting.cpp Setting.h Request.cpp Request.h)
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${JSON_LIBRARIES})

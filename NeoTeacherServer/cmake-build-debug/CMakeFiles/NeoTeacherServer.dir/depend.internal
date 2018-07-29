@@ -11,6 +11,9 @@ CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/TransmissionControlProtocolSerial.h
+CMakeFiles/NeoTeacherServer.dir/DataBaseSerial.cpp.o
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/DataBaseSerial.cpp
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/DataBaseSerial.h
 CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Client.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/ClientManager.h
@@ -25,6 +28,16 @@ CMakeFiles/NeoTeacherServer.dir/Request.cpp.o
 CMakeFiles/NeoTeacherServer.dir/Setting.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h
+ /usr/local/include/json/allocator.h
+ /usr/local/include/json/autolink.h
+ /usr/local/include/json/config.h
+ /usr/local/include/json/features.h
+ /usr/local/include/json/forwards.h
+ /usr/local/include/json/json.h
+ /usr/local/include/json/reader.h
+ /usr/local/include/json/value.h
+ /usr/local/include/json/version.h
+ /usr/local/include/json/writer.h
 CMakeFiles/NeoTeacherServer.dir/TransmissionControlProtocolSerial.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Request.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/Setting.h

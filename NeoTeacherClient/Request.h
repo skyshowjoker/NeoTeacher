@@ -16,11 +16,6 @@ private:
     uint16_t checkSum;
     std::string requestBody;
 
-    static const uint8_t RTYPE_OK = 0;
-    static const uint8_t RTYPE_ERR = 1;
-    static const uint8_t RTYPE_LOGIN = 2;
-    // ...
-
     void calculateCheckSum();
 
     void calculateSize();
@@ -32,7 +27,7 @@ public:
 
     void setRequestType(uint8_t type);
 
-    void setRequestBody(std::string& body);
+    void setRequestBody(std::string body);
 
     int getRequestSize() {
         return requestSize;
@@ -40,9 +35,14 @@ public:
 
     bool check(uint16_t anotherCheckSum);
 
-    void serialize(char *serializedRequest);
+    void serialize(char **serializedRequest);
 
     void disserialize(char *serializedRequest);
+
+    static const uint8_t RTYPE_OK = 0;
+    static const uint8_t RTYPE_ERR = 1;
+    static const uint8_t RTYPE_LOGIN = 2;
+    // ...
 };
 
 #endif //NEOTEACHERCLIENT_REQUEST_H
