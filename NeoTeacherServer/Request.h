@@ -18,7 +18,7 @@
 #endif
 
 class Request {
-private:
+protected:
     uint8_t requestType;
     uint32_t requestSize;
     uint16_t checkSum;
@@ -35,7 +35,7 @@ public:
 
     void setRequestType(uint8_t type);
 
-    void setRequestBody(std::string &body);
+    void setRequestBody(std::string body);
 
     uint8_t getRequestType();
 

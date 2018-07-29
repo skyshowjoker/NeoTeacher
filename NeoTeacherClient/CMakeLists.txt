@@ -17,6 +17,6 @@ LINK_DIRECTORIES(${JSON_LIBRARY_DIRS})
 
 ADD_DEFINITIONS(${JSON_CFLAGS_OTHER})
 
-add_executable(${PROJECT_NAME} main.cpp TransmissionControlProtocolSerial.cpp TransmissionControlProtocolSerial.h Setting.cpp Setting.h Request.cpp Request.h)
+add_executable(${PROJECT_NAME} main.cpp TransmissionControlProtocolSerial.cpp TransmissionControlProtocolSerial.h Setting.cpp Setting.h Request.cpp Request.h SystemController.cpp SystemController.h)
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${JSON_LIBRARIES})

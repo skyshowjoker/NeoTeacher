@@ -102,6 +102,12 @@
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/DataBaseSerial.h">
 			<Option target="NeoTeacherServer"/>
 		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/LogInRequest.cpp">
+			<Option target="NeoTeacherServer"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/LogInRequest.h">
+			<Option target="NeoTeacherServer"/>
+		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherServer/MainScheduler.cpp">
 			<Option target="NeoTeacherServer"/>
 		</Unit>

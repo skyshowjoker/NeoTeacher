@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.cpp" "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Request.cpp.o"
   "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.cpp" "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o"
+  "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.cpp" "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o"
   "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.cpp" "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o"
   "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/main.cpp" "/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/main.cpp.o"
   )

@@ -6,45 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.cpp
-stdexcept
--
-Request.h
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.h
-
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.cpp
 cstdint
 -
-string
+zconf.h
 -
+SystemController.h
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.h
 
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.h
-string
+/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.h
+linux/input.h
 -
-
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.cpp
-sys/socket.h
+cstdint
 -
-stdexcept
--
-netinet/in.h
--
-strings.h
--
-arpa/inet.h
--
-TransmissionControlProtocolSerial.h
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.h
-
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.h
-Setting.h
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.h
-Request.h
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.h
-
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/main.cpp
-iostream
--
-TransmissionControlProtocolSerial.h
-/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.h
 

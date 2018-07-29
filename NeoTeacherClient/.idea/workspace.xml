@@ -12,38 +12,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57a11a3-3174-402d-ac7a-dec2194eec6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/debug.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeoTeacherServer/LogInRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeoTeacherServer/LogInRequest.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Request.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request.h" beforeDir="false" afterPath="$PROJECT_DIR$/Request.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/NeoTeacherClient.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NeoTeacherClient.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/ClientManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/ClientManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/Request.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/Request.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/Request.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/Request.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/Setting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/Setting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/TransmissionControlProtocolSerial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/TransmissionControlProtocolSerial.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/TransmissionControlProtocolSerial.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/TransmissionControlProtocolSerial.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/MainScheduler.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/Request.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/Request.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/Setting.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/Setting.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/TransmissionControlProtocolSerial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/TransmissionControlProtocolSerial.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/NeoTeacherServer" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/NeoTeacherServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/NeoTeacherServer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/cmake-build-debug/NeoTeacherServer.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherServer/debug.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherServer/debug.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -72,8 +69,8 @@
         <counts>
           <entry key="NeoTeacherClient (disassembly)" value="1" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="8" />
-          <entry key="h" value="15" />
+          <entry key="cpp" value="9" />
+          <entry key="h" value="19" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -81,13 +78,13 @@
         <counts>
           <entry key="Disassembly" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="ObjectiveC" value="24" />
+          <entry key="ObjectiveC" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6180" />
-          <entry key="h" value="1340" />
+          <entry key="cpp" value="6617" />
+          <entry key="h" value="1620" />
           <entry key="json" value="58" />
           <entry key="mm" value="33" />
           <entry key="txt" value="249" />
@@ -97,7 +94,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="249" />
           <entry key="JSON" value="58" />
-          <entry key="ObjectiveC" value="7553" />
+          <entry key="ObjectiveC" value="8270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -108,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+            <state relative-caret-position="313">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
               <folding>
                 <element signature="e#38#61#0" expanded="true" />
               </folding>
@@ -120,32 +117,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/Socket-master/ChatRome -- select/client/client.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#162#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Socket-master/ChatRome -- select/client/client.c">
+        <entry file="file://$PROJECT_DIR$/Request.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="390">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="e#38#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Request.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SystemController.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SystemController.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="e#38#58#0" expanded="true" />
+                <element signature="e#127#151#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/linux/input.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/asm-generic/int-ll64.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -170,15 +218,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TransmissionControlProtocolSerial.h" />
         <option value="$PROJECT_DIR$/Setting.h" />
         <option value="$PROJECT_DIR$/Setting.cpp" />
         <option value="$PROJECT_DIR$/debug.config.json" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Request.cpp" />
         <option value="$PROJECT_DIR$/Request.h" />
         <option value="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" />
+        <option value="$PROJECT_DIR$/TransmissionControlProtocolSerial.h" />
+        <option value="$PROJECT_DIR$/Request.cpp" />
+        <option value="$PROJECT_DIR$/SystemController.h" />
+        <option value="$PROJECT_DIR$/SystemController.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -217,7 +267,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Socket-master/ChatRome -- select/client/client.c" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NeoTeacherServer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -265,24 +315,24 @@
       <workItem from="1532686598895" duration="1824000" />
       <workItem from="1532694744003" duration="601000" />
       <workItem from="1532709849715" duration="305000" />
-      <workItem from="1532823644578" duration="5430000" />
+      <workItem from="1532823644578" duration="8217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20088000" />
+    <option name="totallyTimeSpent" value="22875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14277808" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14277808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -443,23 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#162#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Socket-master/ChatRome -- select/client/client.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Request.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -472,31 +505,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        <state relative-caret-position="313">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding>
             <element signature="e#38#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#162#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Request.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="390">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="e#38#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/asm-generic/int-ll64.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/linux/input.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#127#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Socket-master/ChatRome -- select/client/client.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
         </state>
       </provider>
     </entry>

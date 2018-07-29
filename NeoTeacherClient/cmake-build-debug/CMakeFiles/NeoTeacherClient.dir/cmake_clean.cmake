@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o"
   "CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o"
   "CMakeFiles/NeoTeacherClient.dir/Request.cpp.o"
+  "CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o"
   "NeoTeacherClient.pdb"
   "NeoTeacherClient"
 )

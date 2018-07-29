@@ -7,6 +7,9 @@ CMakeFiles/NeoTeacherClient.dir/Request.cpp.o
 CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.h
+CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.cpp
+ /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.h
 CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.h

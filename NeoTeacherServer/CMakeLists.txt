@@ -12,6 +12,6 @@ LINK_DIRECTORIES(${JSON_LIBRARY_DIRS})
 
 ADD_DEFINITIONS(${JSON_CFLAGS_OTHER})
 
-add_executable(${PROJECT_NAME} main.cpp TransmissionControlProtocolSerial.cpp TransmissionControlProtocolSerial.h Setting.cpp Setting.h Request.cpp Request.h MainScheduler.cpp MainScheduler.h User.cpp User.h Client.cpp Client.h ClientManager.cpp ClientManager.h DataBaseSerial.cpp DataBaseSerial.h)
+add_executable(${PROJECT_NAME} main.cpp TransmissionControlProtocolSerial.cpp TransmissionControlProtocolSerial.h Setting.cpp Setting.h Request.cpp Request.h MainScheduler.cpp MainScheduler.h User.cpp User.h Client.cpp Client.h ClientManager.cpp ClientManager.h DataBaseSerial.cpp DataBaseSerial.h LogInRequest.cpp LogInRequest.h)
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${JSON_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})

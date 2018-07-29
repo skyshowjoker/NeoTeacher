@@ -5,8 +5,6 @@
 #include <stdexcept>
 #include "Request.h"
 
-
-
 bool Request::check(uint16_t anotherCheckSum) {
     return (checkSum == anotherCheckSum);
 }
@@ -81,8 +79,8 @@ void Request::calculateSize() {
     requestSize = (uint32_t) requestBody.size();
 }
 
-void Request::setRequestBody(std::string &body) {
-    requestBody = body;
+void Request::setRequestBody(std::string body) {
+    requestBody = std::move(body);
 }
 
 void Request::setRequestType(uint8_t type) {

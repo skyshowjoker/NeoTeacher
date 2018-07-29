@@ -96,6 +96,12 @@
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Setting.h">
 			<Option target="NeoTeacherClient"/>
 		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.cpp">
+			<Option target="NeoTeacherClient"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.h">
+			<Option target="NeoTeacherClient"/>
+		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.cpp">
 			<Option target="NeoTeacherClient"/>
 		</Unit>

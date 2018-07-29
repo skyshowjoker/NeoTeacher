@@ -204,6 +204,33 @@ DataBaseSerial.cpp.s:
 	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/DataBaseSerial.cpp.s
 .PHONY : DataBaseSerial.cpp.s
 
+LogInRequest.o: LogInRequest.cpp.o
+
+.PHONY : LogInRequest.o
+
+# target to build an object file
+LogInRequest.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/LogInRequest.cpp.o
+.PHONY : LogInRequest.cpp.o
+
+LogInRequest.i: LogInRequest.cpp.i
+
+.PHONY : LogInRequest.i
+
+# target to preprocess a source file
+LogInRequest.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/LogInRequest.cpp.i
+.PHONY : LogInRequest.cpp.i
+
+LogInRequest.s: LogInRequest.cpp.s
+
+.PHONY : LogInRequest.s
+
+# target to generate assembly for a file
+LogInRequest.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherServer.dir/build.make CMakeFiles/NeoTeacherServer.dir/LogInRequest.cpp.s
+.PHONY : LogInRequest.cpp.s
+
 MainScheduler.o: MainScheduler.cpp.o
 
 .PHONY : MainScheduler.o
@@ -384,6 +411,9 @@ help:
 	@echo "... DataBaseSerial.o"
 	@echo "... DataBaseSerial.i"
 	@echo "... DataBaseSerial.s"
+	@echo "... LogInRequest.o"
+	@echo "... LogInRequest.i"
+	@echo "... LogInRequest.s"
 	@echo "... MainScheduler.o"
 	@echo "... MainScheduler.i"
 	@echo "... MainScheduler.s"

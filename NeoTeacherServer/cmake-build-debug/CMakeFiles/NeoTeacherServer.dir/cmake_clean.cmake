@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeoTeacherServer.dir/Client.cpp.o"
   "CMakeFiles/NeoTeacherServer.dir/ClientManager.cpp.o"
   "CMakeFiles/NeoTeacherServer.dir/DataBaseSerial.cpp.o"
+  "CMakeFiles/NeoTeacherServer.dir/LogInRequest.cpp.o"
   "NeoTeacherServer.pdb"
   "NeoTeacherServer"
 )
