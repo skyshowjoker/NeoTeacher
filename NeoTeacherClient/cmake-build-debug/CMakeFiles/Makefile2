@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/c
 CMakeFiles/NeoTeacherClient.dir/all:
 	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/depend
 	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target NeoTeacherClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target NeoTeacherClient"
 .PHONY : CMakeFiles/NeoTeacherClient.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/NeoTeacherClient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeoTeacherClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NeoTeacherClient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/NeoTeacherClient.dir/rule

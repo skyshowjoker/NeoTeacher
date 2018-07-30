@@ -123,6 +123,33 @@ NeoTeacherClient/fast:
 	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/build
 .PHONY : NeoTeacherClient/fast
 
+FileRequest.o: FileRequest.cpp.o
+
+.PHONY : FileRequest.o
+
+# target to build an object file
+FileRequest.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o
+.PHONY : FileRequest.cpp.o
+
+FileRequest.i: FileRequest.cpp.i
+
+.PHONY : FileRequest.i
+
+# target to preprocess a source file
+FileRequest.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.i
+.PHONY : FileRequest.cpp.i
+
+FileRequest.s: FileRequest.cpp.s
+
+.PHONY : FileRequest.s
+
+# target to generate assembly for a file
+FileRequest.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.s
+.PHONY : FileRequest.cpp.s
+
 Request.o: Request.cpp.o
 
 .PHONY : Request.o
@@ -231,6 +258,33 @@ TransmissionControlProtocolSerial.cpp.s:
 	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.s
 .PHONY : TransmissionControlProtocolSerial.cpp.s
 
+UserOperation.o: UserOperation.cpp.o
+
+.PHONY : UserOperation.o
+
+# target to build an object file
+UserOperation.cpp.o:
+	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o
+.PHONY : UserOperation.cpp.o
+
+UserOperation.i: UserOperation.cpp.i
+
+.PHONY : UserOperation.i
+
+# target to preprocess a source file
+UserOperation.cpp.i:
+	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.i
+.PHONY : UserOperation.cpp.i
+
+UserOperation.s: UserOperation.cpp.s
+
+.PHONY : UserOperation.s
+
+# target to generate assembly for a file
+UserOperation.cpp.s:
+	$(MAKE) -f CMakeFiles/NeoTeacherClient.dir/build.make CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.s
+.PHONY : UserOperation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -267,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... NeoTeacherClient"
+	@echo "... FileRequest.o"
+	@echo "... FileRequest.i"
+	@echo "... FileRequest.s"
 	@echo "... Request.o"
 	@echo "... Request.i"
 	@echo "... Request.s"
@@ -279,6 +336,9 @@ help:
 	@echo "... TransmissionControlProtocolSerial.o"
 	@echo "... TransmissionControlProtocolSerial.i"
 	@echo "... TransmissionControlProtocolSerial.s"
+	@echo "... UserOperation.o"
+	@echo "... UserOperation.i"
+	@echo "... UserOperation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

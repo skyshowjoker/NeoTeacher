@@ -12,6 +12,8 @@ private:
     std::string serverAddress;
     uint16_t serverPort;
     std::string dataBasePath = "./";
+    uint8_t mouseEvent;
+    uint8_t keyboardEvent;
 
 public:
     explicit Setting(std::string path);
@@ -24,13 +26,19 @@ public:
 
     std::string getDataBasePath();
 
+    uint8_t getMouseEvent();
+
+    uint8_t getKeyboardEvent();
+
+    void readFromFile(std::string path);
+
+#ifdef __IN_DEBUG__
     void setAddress(std::string address);
 
     void setPort(uint16_t port);
 
     void setDataBasePath(std::string path);
-
-    void readFromFile(std::string path);
+#endif
 };
 
 #endif //NEOTEACHERCLIENT_SETTING_H

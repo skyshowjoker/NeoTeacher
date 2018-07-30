@@ -12,23 +12,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57a11a3-3174-402d-ac7a-dec2194eec6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LogInRequest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogInRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/FileRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/FileRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/UserOperation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/UserOperation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/Request.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/Request.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/Setting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/Setting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/Setting.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/Setting.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/TransmissionControlProtocolSerial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/TransmissionControlProtocolSerial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Request.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Request.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Request.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request.h" beforeDir="false" afterPath="$PROJECT_DIR$/Request.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NeoTeacherServer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NeoTeacherServer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NeoTeacherServer.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/debug.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +95,11 @@
     <session id="1595253985">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -103,18 +123,18 @@
         <counts>
           <entry key="NeoTeacherServer (disassembly)" value="8" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="35" />
-          <entry key="h" value="33" />
+          <entry key="cpp" value="36" />
+          <entry key="h" value="35" />
           <entry key="json" value="4" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="4" />
+          <entry key="CMakeLists.txt" value="5" />
           <entry key="Disassembly" value="8" />
           <entry key="JSON" value="4" />
-          <entry key="ObjectiveC" value="69" />
+          <entry key="ObjectiveC" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -122,23 +142,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClientManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="e#38#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="e#162#182#0" expanded="true" />
               </folding>
@@ -147,31 +155,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-              <folding>
-                <element signature="e#38#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug.config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Request.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1320">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="e#38#58#0" expanded="true" />
               </folding>
@@ -182,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="285">
               <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
@@ -191,8 +178,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Request.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainScheduler.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="e#122#139#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,7 +238,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/char_traits.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="5235">
               <caret line="349" selection-start-line="349" selection-end-line="349" />
             </state>
           </provider>
@@ -267,10 +287,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="1600" />
-    <option name="height" value="902" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +310,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,6 +364,9 @@
       <workItem from="1532694741282" duration="2322000" />
       <workItem from="1532705008746" duration="4308000" />
       <workItem from="1532738101500" duration="26055000" />
+      <workItem from="1532835946065" duration="606000" />
+      <workItem from="1532932527565" duration="615000" />
+      <workItem from="1532940767850" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="replaced ClientList with ClientManager and finished multi-thread listener.">
       <created>1532744419921</created>
@@ -370,12 +393,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49624000" />
+    <option name="totallyTimeSpent" value="51440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1600" height="902" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22651222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20199226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -554,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="e#104#122#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,23 +594,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding>
-            <element signature="e#111#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientList.h" />
+    <entry file="file://$PROJECT_DIR$/ClientList.cpp" />
     <entry file="file:///usr/include/x86_64-linux-gnu/bits/pthreadtypes.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -609,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#38#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,16 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#122#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -642,59 +634,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainScheduler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#122#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MainScheduler.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="e#38#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/char_traits.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="349" selection-start-line="349" selection-end-line="349" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClientManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="420">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#38#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="e#162#182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,7 +664,38 @@
     <entry file="file://$PROJECT_DIR$/debug.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Request.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#38#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Request.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -730,26 +713,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Request.h">
+    <entry file="file:///usr/include/c++/7/bits/char_traits.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="5235">
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Request.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
-            <element signature="e#38#58#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainScheduler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#122#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#162#182#0" expanded="true" />
           </folding>
         </state>
       </provider>

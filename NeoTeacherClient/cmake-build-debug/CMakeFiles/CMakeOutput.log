@@ -631,3 +631,115 @@ make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeache
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the function XOpenDisplay exists in the X11;/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4ffe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4ffe.dir/build.make CMakeFiles/cmTC_a4ffe.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4ffe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_a4ffe.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4ffe
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ffe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_a4ffe.dir/CheckFunctionExists.c.o  -o cmTC_a4ffe -lX11 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa0a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa0a4.dir/build.make CMakeFiles/cmTC_fa0a4.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa0a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_fa0a4.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fa0a4
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa0a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_fa0a4.dir/CheckFunctionExists.c.o  -o cmTC_fa0a4 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf2a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf2a0.dir/build.make CMakeFiles/cmTC_cf2a0.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf2a0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_cf2a0.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf2a0
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf2a0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_cf2a0.dir/CheckFunctionExists.c.o  -o cmTC_cf2a0 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35eb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35eb7.dir/build.make CMakeFiles/cmTC_35eb7.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35eb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_35eb7.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_35eb7
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35eb7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_35eb7.dir/CheckFunctionExists.c.o  -o cmTC_35eb7 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39819/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39819.dir/build.make CMakeFiles/cmTC_39819.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39819.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_39819.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39819
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39819.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_39819.dir/CheckFunctionExists.c.o  -o cmTC_39819 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c50f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c50f.dir/build.make CMakeFiles/cmTC_0c50f.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c50f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_0c50f.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0c50f
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c50f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_0c50f.dir/CheckFunctionExists.c.o  -o cmTC_0c50f -lICE 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45ce4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45ce4.dir/build.make CMakeFiles/cmTC_45ce4.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45ce4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_45ce4.dir/CheckIncludeFile.c.o   -c /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45ce4
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45ce4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_45ce4.dir/CheckIncludeFile.c.o  -o cmTC_45ce4 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3a7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3a7d.dir/build.make CMakeFiles/cmTC_c3a7d.dir/build
+make[1]: Entering directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3a7d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3a7d.dir/CheckFunctionExists.c.o   -c /home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3a7d
+/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3a7d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c3a7d.dir/CheckFunctionExists.c.o  -o cmTC_c3a7d -lpthread 
+make[1]: Leaving directory '/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

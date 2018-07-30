@@ -5,7 +5,7 @@
 		<Option title="NeoTeacherClient"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug"/>
@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -68,6 +69,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -84,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/FileRequest.cpp">
+			<Option target="NeoTeacherClient"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/FileRequest.h">
+			<Option target="NeoTeacherClient"/>
+		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/Request.cpp">
 			<Option target="NeoTeacherClient"/>
 		</Unit>
@@ -108,11 +116,29 @@
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/TransmissionControlProtocolSerial.h">
 			<Option target="NeoTeacherClient"/>
 		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/UserOperation.cpp">
+			<Option target="NeoTeacherClient"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/UserOperation.h">
+			<Option target="NeoTeacherClient"/>
+		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/main.cpp">
 			<Option target="NeoTeacherClient"/>
 		</Unit>
 		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

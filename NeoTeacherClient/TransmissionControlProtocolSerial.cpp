@@ -51,7 +51,7 @@ void TransmissionControlProtocolSerial::recieveRequest(Request **buffer) {
     unsigned int size = 0;
     for (int i = 0; i < 4; i++) {
         size <<= 8;
-        size += sizeBuffer[i];
+        size |= (uint32_t) sizeBuffer[i];
     }
     char serializedRequest[size + 7];
     for (int i = 0; i < 4; i++) {

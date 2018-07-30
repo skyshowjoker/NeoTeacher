@@ -10,7 +10,7 @@
 #include <string>
 
 class Request {
-private:
+protected:
     uint8_t requestType;
     uint32_t requestSize;
     uint16_t checkSum;

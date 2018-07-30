@@ -17,6 +17,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeLanguageInformation.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckIncludeFile.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckLibraryExists.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckSymbolExists.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/GNU-C.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/Compiler/GNU-CXX.cmake"
@@ -24,6 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/FindPackageMessage.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/FindPkgConfig.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/FindThreads.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/FindX11.cmake"
+  "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/FindXShm.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/Platform/Linux-GNU-C.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/karl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/Platform/Linux-GNU.cmake"
@@ -34,6 +41,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.12.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.12.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.12.0/CMakeSystem.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:

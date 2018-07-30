@@ -122,13 +122,41 @@ CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/SystemController.cpp -o CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.s
 
+CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o: CMakeFiles/NeoTeacherClient.dir/flags.make
+CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o: ../FileRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/FileRequest.cpp
+
+CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/FileRequest.cpp > CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.i
+
+CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/FileRequest.cpp -o CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.s
+
+CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o: CMakeFiles/NeoTeacherClient.dir/flags.make
+CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o: ../UserOperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o -c /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/UserOperation.cpp
+
+CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/UserOperation.cpp > CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.i
+
+CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/UserOperation.cpp -o CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.s
+
 # Object files for target NeoTeacherClient
 NeoTeacherClient_OBJECTS = \
 "CMakeFiles/NeoTeacherClient.dir/main.cpp.o" \
 "CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o" \
 "CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o" \
 "CMakeFiles/NeoTeacherClient.dir/Request.cpp.o" \
-"CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o"
+"CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o" \
+"CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o" \
+"CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o"
 
 # External object files for target NeoTeacherClient
 NeoTeacherClient_EXTERNAL_OBJECTS =
@@ -138,9 +166,33 @@ NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSer
 NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o
 NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/Request.cpp.o
 NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o
+NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o
+NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o
 NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/build.make
+NeoTeacherClient: /usr/lib/x86_64-linux-gnu/libSM.so
+NeoTeacherClient: /usr/lib/x86_64-linux-gnu/libICE.so
+NeoTeacherClient: /usr/lib/x86_64-linux-gnu/libX11.so
+NeoTeacherClient: /usr/lib/x86_64-linux-gnu/libXext.so
+NeoTeacherClient: /usr/local/lib/libopencv_dnn.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_ml.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_objdetect.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_shape.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_stitching.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_superres.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_videostab.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_viz.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_calib3d.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_features2d.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_flann.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_highgui.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_photo.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_video.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_videoio.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_imgcodecs.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_imgproc.so.3.4.1
+NeoTeacherClient: /usr/local/lib/libopencv_core.so.3.4.1
 NeoTeacherClient: CMakeFiles/NeoTeacherClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable NeoTeacherClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/karl/Documents/NeuTeacher/NeoTeacher/NeoTeacherClient/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable NeoTeacherClient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeoTeacherClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o"
   "CMakeFiles/NeoTeacherClient.dir/Request.cpp.o"
   "CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o"
+  "CMakeFiles/NeoTeacherClient.dir/FileRequest.cpp.o"
+  "CMakeFiles/NeoTeacherClient.dir/UserOperation.cpp.o"
   "NeoTeacherClient.pdb"
   "NeoTeacherClient"
 )
