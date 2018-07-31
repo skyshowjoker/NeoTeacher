@@ -21,16 +21,16 @@ void Request::serialize(char **serializedRequest) {
     }
 
     // serialize request type;
-    serializedRequest[0][4] = toChar(requestType);
+    (*serializedRequest)[4] = toChar(requestType);
 
     // serialize request checksum
     for (int i = 0; i < 2; i ++) {
-        serializedRequest[0][5 + i] = toChar((uint8_t) ((checkSum << (8 * i)) >> 8));
+        (*serializedRequest)[5 + i] = toChar((uint8_t) ((checkSum << (8 * i)) >> 8));
     }
 
     // serialize request body
     for (unsigned long i = 0; i < requestSize; i ++) {
-        serializedRequest[0][7 + i] = requestBody.at(i);
+        (*serializedRequest)[7 + i] = requestBody.at(i);
     }
 }
 

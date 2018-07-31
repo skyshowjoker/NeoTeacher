@@ -12,43 +12,193 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b57a11a3-3174-402d-ac7a-dec2194eec6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/FileRequest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/FileRequest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/UserOperation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NeoTeacherClient/UserOperation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Client.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Client.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/MainScheduler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/MainScheduler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/ErrorRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/ErrorRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/FileRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/FileRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/HandInRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/HandInRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/HandUpRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/HandUpRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/LoginRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/LoginRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/MouseEventRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/MouseEventRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/OKRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/OKRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/Request.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Request/Request.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Setting.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Setting.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/SystemController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/SystemController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/TransmissionControlProtocolSerial.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/TransmissionControlProtocolSerial.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/UserOperations.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/UserOperations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/debug.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/debug.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Client.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Client.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/ClientManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/ClientManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/ErrorRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/ErrorRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/FileRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/FileRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/HandInRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/HandInRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/HandUpRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/HandUpRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/LoginRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/LoginRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/MouseEventRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/MouseEventRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/OKRequest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/OKRequest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/Request.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Request/Request.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Setting.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Setting.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/TransmissionControlProtocolSerial.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/TransmissionControlProtocolSerial.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/Request.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/Request.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/Setting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/Setting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/Setting.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/Setting.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/SystemController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/TransmissionControlProtocolSerial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/TransmissionControlProtocolSerial.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Request.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Request.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/Setting.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/SystemController.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/TransmissionControlProtocolSerial.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/NeoTeacherClient.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/cmake-build-debug/NeoTeacherClient.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../NeoTeacherClient/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot-raw.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NeoTeacherClient/screenshot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Request.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Request.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransmissionControlProtocolSerial.h" beforeDir="false" afterPath="$PROJECT_DIR$/TransmissionControlProtocolSerial.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,16 +245,18 @@
     <session id="1595253985">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="6957" />
+          <entry key="cpp" value="7000" />
           <entry key="h" value="1827" />
           <entry key="json" value="93" />
           <entry key="mm" value="24" />
@@ -115,7 +267,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="307" />
           <entry key="JSON" value="93" />
-          <entry key="ObjectiveC" value="8808" />
+          <entry key="ObjectiveC" value="8851" />
           <entry key="PLAIN_TEXT" value="150" />
         </counts>
       </usages-collector>
@@ -123,9 +275,9 @@
         <counts>
           <entry key="NeoTeacherServer (disassembly)" value="8" />
           <entry key="c" value="1" />
-          <entry key="cpp" value="36" />
-          <entry key="h" value="35" />
-          <entry key="json" value="4" />
+          <entry key="cpp" value="38" />
+          <entry key="h" value="39" />
+          <entry key="json" value="5" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -133,8 +285,8 @@
         <counts>
           <entry key="CMakeLists.txt" value="5" />
           <entry key="Disassembly" value="8" />
-          <entry key="JSON" value="4" />
-          <entry key="ObjectiveC" value="72" />
+          <entry key="JSON" value="5" />
+          <entry key="ObjectiveC" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -142,11 +294,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="65" column="93" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
+              <folding>
+                <element signature="e#38#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="300">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="e#162#182#0" expanded="true" />
               </folding>
@@ -155,63 +319,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Request.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="e#38#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Request.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/Setting.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="24" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MainScheduler.h">
+        <entry file="file://$PROJECT_DIR$/debug.config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClientManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClientManager.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
-                <element signature="e#122#139#0" expanded="true" />
+                <element signature="e#38#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -246,13 +395,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>read</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Setting.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/UserList.cpp" />
         <option value="$PROJECT_DIR$/User.h" />
@@ -270,12 +423,13 @@
         <option value="$PROJECT_DIR$/Setting.cpp" />
         <option value="$PROJECT_DIR$/ClientManager.cpp" />
         <option value="$PROJECT_DIR$/TransmissionControlProtocolSerial.h" />
-        <option value="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" />
         <option value="$PROJECT_DIR$/LogInRequest.h" />
         <option value="$PROJECT_DIR$/LogInRequest.cpp" />
-        <option value="$PROJECT_DIR$/Request.cpp" />
         <option value="$PROJECT_DIR$/debug.config.json" />
         <option value="$PROJECT_DIR$/Request.h" />
+        <option value="$PROJECT_DIR$/Request.cpp" />
+        <option value="$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp" />
+        <option value="$PROJECT_DIR$/Setting.h" />
       </list>
     </option>
   </component>
@@ -287,10 +441,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1440" />
+    <option name="height" value="902" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -298,7 +452,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,6 +463,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,6 +521,8 @@
       <workItem from="1532835946065" duration="606000" />
       <workItem from="1532932527565" duration="615000" />
       <workItem from="1532940767850" duration="595000" />
+      <workItem from="1532943751432" duration="2447000" />
+      <workItem from="1533003150318" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="replaced ClientList with ClientManager and finished multi-thread listener.">
       <created>1532744419921</created>
@@ -393,12 +549,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51440000" />
+    <option name="totallyTimeSpent" value="55091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1920" y="-2" width="1440" height="902" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20199226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26901004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -603,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Setting.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Setting.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -619,13 +769,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataBaseSerial.cpp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataBaseSerial.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,47 +784,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClientManager.cpp">
+    <entry file="file://$PROJECT_DIR$/Client.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#38#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#38#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="285">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Request.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#38#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client.h">
+    <entry file="file:///usr/include/fcntl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="2340">
+          <caret line="156" column="11" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -692,10 +815,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainScheduler.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#122#139#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -720,32 +856,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="587">
+          <caret line="65" column="93" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainScheduler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#122#139#0" expanded="true" />
+            <element signature="e#38#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TransmissionControlProtocolSerial.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="e#162#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Setting.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#38#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

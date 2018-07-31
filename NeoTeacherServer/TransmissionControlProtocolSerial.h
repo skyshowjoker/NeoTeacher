@@ -16,7 +16,7 @@ private:
 public:
     explicit TransmissionControlProtocolSerial(Setting* setting);
     void sendRequest(int remoteFileDescriptor, Request* request);
-    void receiveRequest(int remoteFileDescriptor, Request **buffer);
+    void receiveRequest(int remoteFileDescriptor, Request **request);
 
     int getListenFileDescriptor();
 };
