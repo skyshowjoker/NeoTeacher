@@ -7,6 +7,8 @@
 #include <netinet/in.h>
 #include <strings.h>
 #include <arpa/inet.h>
+#include <zconf.h>
+#include <fcntl.h>
 #include "TransmissionControlProtocolSerial.h"
 
 using namespace std;
@@ -37,7 +39,7 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
     fprintf(stderr, "[STAT] TCP SERIAL SUCCESSFULLY INITIALIZED..\n");
 }
 
-void TransmissionControlProtocolSerial::receiveRequest(int remoteFileDescriptor, Request **buffer) {
+void TransmissionControlProtocolSerial::receiveRequest(int remoteFileDescriptor, Request **request) {
     char sizeBuffer[4];
     recv(remoteFileDescriptor, sizeBuffer, 4, 0);
     unsigned int size = 0;
@@ -50,9 +52,9 @@ void TransmissionControlProtocolSerial::receiveRequest(int remoteFileDescriptor,
         serializedRequest[i] = sizeBuffer[i];
     }
     recv(remoteFileDescriptor, serializedRequest + 4, size + 3, 0);
-    *buffer = new Request();
+    *request = new Request();
     try {
-        (*buffer)->disserialize(serializedRequest);
+        (*request)->disserialize(serializedRequest);
     } catch (runtime_error &error) {
         throw error;
     }
