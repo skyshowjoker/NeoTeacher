@@ -15,6 +15,7 @@ CMakeFiles/Server.dir/src/Client.cpp.o: ../src/Client.h
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/Client.h
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/ClientManager.cpp
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/ClientManager.h
+CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/Request/LoginRequest.h
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/Request/OKRequest.h
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/Request/Request.h
 CMakeFiles/Server.dir/src/ClientManager.cpp.o: ../src/Setting.h
@@ -47,6 +48,10 @@ CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o: ../src/Request/Reques
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o: ../src/Request/OKRequest.cpp
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o: ../src/Request/OKRequest.h
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o: ../src/Request/Request.h
+
+CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o: ../src/Request/QuitRequest.cpp
+CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o: ../src/Request/QuitRequest.h
+CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o: ../src/Request/Request.h
 
 CMakeFiles/Server.dir/src/Request/Request.cpp.o: ../src/Request/Request.cpp
 CMakeFiles/Server.dir/src/Request/Request.cpp.o: ../src/Request/Request.h

@@ -49,10 +49,10 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
 void TransmissionControlProtocolSerial::receiveRequest(Request **pRequest) {
     char sizeBuffer[4] = {0};
     recv(socketFileDescriptor, sizeBuffer, 4, 0);
-    unsigned int size = 0;
-    for (int i = 0; i < 4; i++) {
+    uint32_t size = 0;
+    for (auto c : sizeBuffer) {
         size <<= 8;
-        size |= (uint32_t) sizeBuffer[i];
+        size |= (uint32_t) toUnsignedChar(c);
     }
     char serializedRequest[size + 7];
     for (int i = 0; i < 4; i++) {

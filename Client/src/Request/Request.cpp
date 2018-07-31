@@ -47,7 +47,7 @@ void Request::disserialize(char *serializedRequest) {
     requestSize = 0;
     for (int i = 0; i < 4; i++) {
         requestSize <<= 8;
-        requestSize += serializedRequest[i];
+        requestSize += toUnsignedChar(serializedRequest[i]);
     }
 
     // load type

@@ -4,17 +4,18 @@
 
 #include <stdexcept>
 #include <strings.h>
+#include <zconf.h>
 #include "ClientManager.h"
 #include "Request/LoginRequest.h"
 
-void requestHandler(Request * request);
+void requestHandler(Request *request, bool *quitFlag, TransmissionControlProtocolSerial* TCPSerial, int connfd);
 
 void ClientManager::newClient(int connectFileDescriptor, sockaddr_in clientAddr, pthread_t pid) {
     clientList.push_back(new Client(connectFileDescriptor, clientAddr, pid));
 }
 
 typedef struct {
-    TransmissionControlProtocolSerial * TCPSerial;
+    TransmissionControlProtocolSerial *TCPSerial;
     int connfd;
     // DEBUG
     pthread_t pid;
@@ -25,11 +26,24 @@ void *connectionListenLoop(void *args) {
     auto TCPSerial = ((connectionListenLoopArg *) args)->TCPSerial;
     auto pid = ((connectionListenLoopArg *) args)->pid;
     fprintf(stderr, "[STAT] start listening msg in thread [%u]..\n", pid);
-    while(true) {
+    while (true) {
         auto request = new Request();
-        TCPSerial->receiveRequest(connfd, &request);
-        requestHandler(request);
+        try {
+            TCPSerial->receiveRequest(connfd, &request);
+        } catch (std::runtime_error &error) {
+            return nullptr;
+        }
+        bool flag = false;
+        requestHandler(request, &flag, TCPSerial, connfd);
+        if (flag) {
+            break;
+        }
     }
+    auto acc = new OKRequest();
+    TCPSerial->sendRequest(connfd, acc);
+    delete acc;
+    close(connfd);
+    fprintf(stderr, "[STAT] stop listening msg in thread [%u]..\n", pid);
     return nullptr;
 }
 
@@ -49,7 +63,6 @@ void *handleNewConnectionLoop(void *args) {
             throw std::runtime_error(std::string("failed accepting connection"));
         }
         fprintf(stderr, "[STAT] connected with client '%d'..\n", clientAddr.sin_addr.s_addr);
-//        send(connfd, "Welcome and fuck you.\r\n", 24, 0);
         connectionListenLoopArg arg;
         arg.connfd = connfd;
         pthread_create(&arg.pid, nullptr, &connectionListenLoop, &arg);
@@ -58,7 +71,6 @@ void *handleNewConnectionLoop(void *args) {
 }
 
 void ClientManager::handleNewConnection(TransmissionControlProtocolSerial *TCPSerial) {
-    int listenfd = TCPSerial->getListenFileDescriptor();
     handleNewConnectionLoopArg arg;
     arg.clientManager = this;
     arg.TCPSerial = TCPSerial;
@@ -66,14 +78,17 @@ void ClientManager::handleNewConnection(TransmissionControlProtocolSerial *TCPSe
     pthread_join(newConnectionHandlerPid, nullptr);
 }
 
-extern void requestHandler(Request * request) {
+extern void requestHandler(Request *request, bool *quitFlag, TransmissionControlProtocolSerial* TCPSerial, int connfd) {
     switch (request->getRequestType()) {
         case Request::RTYPE_LOGIN:
-            auto loginRequest = (LoginRequest*) request;
-            std::string username;
-            std::vector<uint8_t> summary;
-            loginRequest->depackData(&username, &summary);
-            fprintf (stderr, "got a login request from user: %s");
+            printf ("some one is attempting to log in..\n");
+            TCPSerial->sendRequest(connfd, new OKRequest());
+            break;
+        case Request::RTYPE_HANDUP:
+            break;
+        case Request::RTYPE_QUIT:
+            *quitFlag = true;
+            break;
         default:
             throw std::runtime_error(std::string("invalid request type"));
     }

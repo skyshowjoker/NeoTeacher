@@ -65,10 +65,14 @@ void UserOperations::Login(TransmissionControlProtocolSerial *TCPSerial) {
     delete request;
     Request * recvRequest;
     TCPSerial->receiveRequest(&recvRequest);
-    if (recvRequest->getRequestType() == Request::RTYPE_ERR) {
+    if (recvRequest->getRequestType() == Request::RTYPE_OK) {
+        return;
+    } else if (recvRequest->getRequestType() == Request::RTYPE_ERR) {
         std::string errorMessage;
         ((ErrorRequest*) recvRequest)->depackData(&errorMessage);
         throw std::runtime_error(errorMessage);
+    } else {
+        throw std::runtime_error("unknown error");
     }
 }
 
@@ -87,10 +91,14 @@ void UserOperations::HandIn(TransmissionControlProtocolSerial* TCPSerial) {
     delete handInRequest;
     Request * recvRequest;
     TCPSerial->receiveRequest(&recvRequest);
-    if (recvRequest->getRequestType() == Request::RTYPE_ERR) {
+    if (recvRequest->getRequestType() == Request::RTYPE_OK) {
+        return;
+    } else if (recvRequest->getRequestType() == Request::RTYPE_ERR) {
         std::string errorMessage;
         ((ErrorRequest*) recvRequest)->depackData(&errorMessage);
         throw std::runtime_error(errorMessage);
+    } else {
+        throw std::runtime_error("unknown error");
     }
 }
 

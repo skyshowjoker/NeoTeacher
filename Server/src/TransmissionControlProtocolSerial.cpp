@@ -41,17 +41,21 @@ TransmissionControlProtocolSerial::TransmissionControlProtocolSerial(Setting *se
 
 void TransmissionControlProtocolSerial::receiveRequest(int remoteFileDescriptor, Request **request) {
     char sizeBuffer[4];
-    recv(remoteFileDescriptor, sizeBuffer, 4, 0);
-    unsigned int size = 0;
-    for (int i = 0; i < 4; i++) {
+    if (recv(remoteFileDescriptor, sizeBuffer, 4, 0) < 0) {
+        throw std::runtime_error(std::string ("lost connection"));
+    }
+    uint32_t size = 0;
+    for (auto c : sizeBuffer) {
         size <<= 8;
-        size += toUnsignedChar(sizeBuffer[i]);
+        size |= (uint32_t) toUnsignedChar(c);
     }
     auto serializedRequest = (char *) malloc(size + 7);
     for (int i = 0; i < 4; i++) {
         serializedRequest[i] = sizeBuffer[i];
     }
-    recv(remoteFileDescriptor, serializedRequest + 4, size + 3, 0);
+    if (recv(remoteFileDescriptor, serializedRequest + 4, size + 3, 0) < 0) {
+        throw std::runtime_error(std::string ("lost connection"));
+    }
     *request = new Request();
     try {
         (*request)->disserialize(serializedRequest);

@@ -16,6 +16,7 @@ CMakeFiles/Server.dir/src/ClientManager.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Client.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/ClientManager.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/LoginRequest.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Setting.h
@@ -47,6 +48,10 @@ CMakeFiles/Server.dir/src/Request/MouseEventRequest.cpp.o
 CMakeFiles/Server.dir/src/Request/OKRequest.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.cpp
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/OKRequest.h
+ /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.h
+CMakeFiles/Server.dir/src/Request/QuitRequest.cpp.o
+ /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.cpp
+ /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/QuitRequest.h
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.h
 CMakeFiles/Server.dir/src/Request/Request.cpp.o
  /home/karl/Documents/NeuTeacher/NeoTeacher/Server/src/Request/Request.cpp

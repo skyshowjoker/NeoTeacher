@@ -4,6 +4,7 @@
 
 #include <fstream>
 #include <json/json.h>
+#include <zconf.h>
 #include "MainScheduler.h"
 #include "UserOperations.h"
 
@@ -23,12 +24,15 @@ void MainScheduler::end() {
 
 MainScheduler::~MainScheduler() {
     delete setting;
-    delete systemController;
+//    delete systemController;
     delete TCPSerial;
 }
 
 void MainScheduler::start() {
     // debug
     UserOperations::Login(TCPSerial);
+    fprintf (stderr, "[STAT] succeed logged in..\n");
+    sleep(10);
+    UserOperations::Quit(TCPSerial);
     // do something
 }
